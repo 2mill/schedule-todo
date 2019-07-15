@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="nav-placeholder">
+    </div>
    <h1>Tool for schedule things into a todo list</h1> 
    <h2>Features to expect</h2>
    <ul>
@@ -16,5 +18,15 @@
         <li>Smart scheduling</li>
         <li>Overdue tasks overlook</li>
    </ul>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <div id="#boot-bottom-placeholder">
+   </div>
+   <script type="text/javascript"> 
+        $(document).ready(function() {
+            $('#nav-placeholder').load('/nav');
+            $('#boot-bottom-placeholder').load('/boot-bottom.html');
+            $('boot-top-placeholder').load('/boot-top.html');
+        })
+   </script>
 </body>
 </html>
