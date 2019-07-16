@@ -20,4 +20,8 @@ app.get('/boot-bottom.html', function(req, res) {
 app.get('/boot-top.html', function(req, res) {
     res.sendFile(path.resolve('boot-top.html'));
 });
+app.get('/style', function(req, res) {
+	res.sendFile(path.resolve('style.css'));
+
+})
 app.listen(port, () => console.log(`Example app listening on port ${port}`))
