@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="todo-style.css" rel="stylesheet" type="text/css">
+    <link href="style/todo-style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
-	<img src="/images/arrow-circle-bottom-6x.png" alt="picture of a downwards arrow">
     <div id="nav-placeholder">
     </div>
     <div class="container" id="create-new-tab-button">
@@ -32,29 +31,17 @@
    </div>
    <div class="container tab-content"> 
 	   <div class="row">
-	  	<div class="col-sm">
-			<input type="checkbox" checked>This is a checkbox
+	  	<div class="col-sm checkbox-item">
+			<p>This is an item</p>			
 		</div> 
-		<div class="col-sm">
-		</div>
-
-	   
 	   </div>
-   
-   
    </div>
-   </div>
-
-
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <div id="#boot-bottom-placeholder">
-   </div>
    <script type="text/javascript"> 
         $(document).ready(function() {
-            $('#nav-placeholder').load('/nav');
-            $('#boot-bottom-placeholder').load('/boot-bottom.html');
-            $('boot-top-placeholder').load('/boot-top.html');
+            $('#nav-placeholder').load('/pages/nav.html');
         })
    </script>
+   <script src="scripts/script.js"></script>
 </body>
 </html>

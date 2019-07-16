@@ -1,5 +1,4 @@
 .row div {
-	padding-right : 0;
 	background-color: #05386B;
 	border : 2px solid #379683;
 	color : #EDF5E1;
@@ -8,7 +7,8 @@
 /* FF5607 FF9800 FFC100 FFEC19 */
 
 .row div:hover {
-	background-color : #FF5607;
+	background-color : #379683;
+	border-color : #05386B;
 }
 
 body, .navbar {
@@ -23,6 +23,19 @@ body, .navbar {
 #create-new-tab-button .row .btn:hover {
 	background-color : green;
 	border-outline: dashed;
+}
+
+.checkbox-item p {
+	margin-bottom : 0;
+	margin-left : 0;
+	font-size: 2rem;
+}
+
+.new-task-btn{
+	background-color : orange;
+	margin : 1%;
+	float : right;
+	border-radius: 50px;
 }
 .tab-holder {
 	margin-bottom: 10px;

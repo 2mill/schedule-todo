@@ -1,0 +1,3 @@
+
+		<div class="col-sm btn-col">
+			<button type="button" class="btn new-task-btn">+</button>
